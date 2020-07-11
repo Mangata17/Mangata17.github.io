@@ -1,0 +1,70 @@
+@font-face {
+  font-family: "Lato-Light";
+  font-style: normal;
+  font-weight: bold;
+  src: url("../fonts/Lato-Light.eot");
+  src: url("../fonts/Lato-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/Lato-Light.woff2") format("woff2"), url("../fonts/Lato-Light.woff") format("woff"), url("../fonts/Lato-Light.ttf") format("truetype"), url("../fonts/Lato-Light.svg") format("svg");
+}
+
+@font-face {
+  font-family: "Lato-Regular";
+  font-style: italic;
+  font-weight: normal;
+  src: url("../fonts/Lato-Regular.eot");
+  src: url("../fonts/Lato-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Lato-Regular.woff2") format("woff2"), url("../fonts/Lato-Regular.woff") format("woff"), url("../fonts/Lato-Regular.ttf") format("truetype"), url("../fonts/Lato-Regular.svg") format("svg");
+}
+
+body {
+  font: 100% Helvetica, sans-serif;
+  color: #333;
+}
+
+nav ul {
+  margin: 0;
+}
+
+nav li {
+  padding: 0;
+}
+
+nav a {
+  color: #333;
+}
+
+nav a:hover {
+  color: red;
+}
+
+.content-holder {
+  width: 5;
+  padding: 0;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  nav ul {
+    margin: 10px;
+  }
+  nav p {
+    font-size: 10px;
+  }
+}
+
+@media only screen and (min-width: 993px) and (max-width: 1024px) {
+  nav ul {
+    margin: 10px;
+  }
+  nav p {
+    font-size: 10px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  h1 {
+    font-size: 62px;
+    padding-bottom: 12px;
+  }
+  p {
+    margin: 10px;
+  }
+}
+/*# sourceMappingURL=style.css.map */

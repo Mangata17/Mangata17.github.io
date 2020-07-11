@@ -1,0 +1,538 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="images/favicon.ico">
+    <title>Home</title>
+    <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/slick-theme.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+
+            <div class="row">
+                <div class="col-12 col-md-4">
+                    <div class="site-img my-md-3">
+                        <img src="images/md.png" alt="" class="img-fluid">
+                    </div>
+                </div>
+                <div class="col-12 col-md-8">
+                    <div class="site-sign text-right my-md-5">
+                        <a href="#" class="px-2" data-toggle="modal" data-target="#myModal">Sign-In</a>
+                        <a href="#" class="px-1" data-toggle="modal" data-target="#createAcc">Create an Account</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid p-0">
+            <div class="header-nav">
+                <nav class="navbar navbar-expand-lg">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                        <ul class="navbar-nav">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Features</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Pricing</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Collections
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                    <a class="dropdown-item" href="#">Android</a>
+                                    <a class="dropdown-item" href="#">IOS</a>
+                                    <a class="dropdown-item" href="#">Others</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="navbar-nav">
+                        <ul>
+                            <li class="shop-items px-3">
+                                <i class="fa fa-search" aria-hidden="true"></i>
+                            </li>
+                            <li class="shop-items">
+                                <i class="fa fa-shopping-basket" aria-hidden="true"></i>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <content>
+        <section class="section-banner">
+            <div class="banner-slider">
+                <div class="inner-slider" id="section-banner">
+                    <!-- first slide -->
+                    <div class="inner-item active">
+                        <img class="w-100 img-fluid " src="images/business.jpg" alt="First slide">
+                        <div class="textbox-caption d-md-block  text-center">
+
+                            <h1 class="animated text-white" data-animation-in="fadeInUp" data-animation-delay="0.2s">
+                                Welcome to MobileDec</h1>
+                            <h6 class="animated text-white" data-animation-in="fadeInUp" data-animation-delay="0.2s">
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                            </h6>
+                            <button class="btn text-white animated " data-animation-in="flipInY">More</button>
+                        </div>
+                    </div>
+                    <!-- second slide -->
+                    <div class="inner-item">
+                        <img class="w-100 img-fluid " src="images/lap&ph.jpg" alt="Second slide">
+                        <div class="textbox-caption d-md-block  text-center">
+                            <h3 class="animated text-white" data-animation-in="fadeInUp" data-animation-delay="0.2s">
+
+                            </h3>
+                            <h3 class="animated text-white" data-animation-in="fadeInUp" data-animation-delay="0.2s">
+                                This is the caption for slide 2
+                            </h3>
+                            <button class="btn animated" data-animation-in=" zoomInRight">Button</button>
+                        </div>
+                    </div>
+                    <!-- third slide -->
+                    <div class="inner-item">
+                        <img class="w-100 img-fluid" src="images/new-arrival.jpg" alt="Third slide">
+                        <div class="textbox-caption d-md-block text-white text-center">
+                            <h3 class="text-white" data-animation="animated fadeInUp" data-animation-delay="0.2s">
+                                <span class="fa fa-glass"></span>
+                            </h3>
+                            <h3 class="text-white" data-animation="animated fadeInUp" data-animation-delay="0.2s">
+                                This is the caption for slide 3
+                            </h3>
+                            <button class="btn animated" data-animation-in="lightSpeedIn">Button</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section-blocks spacer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-3">
+                        <div class="section-bl-wrap">
+                            <div class="diamond-shape">
+                                <div class="item-count">
+                                    <i class="fa fa-area-chart" aria-hidden="true"></i>
+                                </div>
+
+                            </div>
+                            <h4 class="text-center">DESIGNS</h4>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates illum alias
+                                incidunt,
+                                asperiores nobis itaque consequatur! Magnam labore ipsa illum libero. Deserunt quos sunt
+                                ullam
+                                illo quasi, ipsum perferendis beatae.</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-3">
+                        <div class="section-bl-wrap">
+                            <div class="diamond-shape">
+                                <div class="item-count">
+                                    <i class="fa fa-ticket" aria-hidden="true"></i>
+                                </div>
+
+                            </div>
+                            <h4 class="text-center">SUPPORT DESK</h4>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates illum alias
+                                incidunt,
+                                asperiores nobis itaque consequatur! Magnam labore ipsa illum libero. Deserunt quos sunt
+                                ullam
+                                illo quasi, ipsum perferendis beatae.</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-3">
+                        <div class="section-bl-wrap">
+                            <div class="diamond-shape">
+                                <div class="item-count">
+                                    <i class="fa fa-briefcase" aria-hidden="true"></i>
+                                </div>
+
+                            </div>
+                            <h4 class="text-center">BUSINESS</h4>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates illum alias
+                                incidunt,
+                                asperiores nobis itaque consequatur! Magnam labore ipsa illum libero. Deserunt quos sunt
+                                ullam
+                                illo quasi, ipsum perferendis beatae.</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-3">
+                        <div class="section-bl-wrap">
+                            <div class="diamond-shape">
+                                <div class="item-count">
+                                    <i class="fa fa-briefcase" aria-hidden="true"></i>
+                                </div>
+
+                            </div>
+                            <h4 class="text-center">BUSINESS</h4>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates illum alias
+                                incidunt,
+                                asperiores nobis itaque consequatur! Magnam labore ipsa illum libero. Deserunt quos sunt
+                                ullam
+                                illo quasi, ipsum perferendis beatae.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="summary spacer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-8">
+                        <div class="summ-up">
+                            <h6>Monday 10:00 AM to Friday 10:00 Am</h6>
+                            <h4>Welcome to MobileDec, Grab the Opportunity and Know the latest Features !!!</h4>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <div class="summ-btn text-right">
+                            <a href="#" class="btn">Read More</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <section class="features spacer">
+            <div class="container">
+                <h2 class="pb-3">Know The Latest Features</h2>
+                <div class="feature-block">
+                    <div class="row">
+                        <div class="col-12 col-md-4">
+                            <div class="feature-wrap">
+                                <div class="feature-img pr-3">
+                                    <img src="images/android-one.webp" alt="" class="img-fluid">
+                                </div>
+                                <div class="feature-text">
+                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores eos, eum,
+                                        debitis, illum dolorum aliquam suscipit qua</p>
+                                    <a href="#" class="btn">Know More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4">
+                            <div class="feature-wrap">
+                                <div class="feature-img pr-3">
+                                    <img src="images/android-one.webp" alt="" class="img-fluid">
+                                </div>
+                                <div class="feature-text">
+                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores eos, eum,
+                                        debitis, illum dolorum aliquam suscipit qua</p>
+                                    <a href="#" class="btn">Know More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4">
+                            <div class="feature-wrap">
+                                <div class="feature-img pr-3">
+                                    <img src="images/android-one.webp" alt="" class="img-fluid">
+                                </div>
+                                <div class="feature-text">
+                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores eos, eum,
+                                        debitis, illum dolorum aliquam suscipit qua</p>
+                                    <a href="#" class="btn">Know More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="parallax" style="background-image: url('images/apple.webp');">
+            <div class="container"></div>
+        </section>
+        <section class="products spacer">
+            <div class="container">
+                <div class="product-slider">
+                    <div class="prd-wrap p-3">
+                        <div class="prd-image" style="background-image: url('../images/smartphone.webp');">
+                        </div>
+                        <div class="top-text pt-3">
+                            <h4>HOT DEALS</h4>
+                        </div>
+                    </div>
+                    <div class="prd-wrap p-3">
+                        <div class="prd-image" style="background-image: url('../images/apple.webp');">
+                        </div>
+                        <div class="top-text pt-3">
+                            <h4>HOT DEALS</h4>
+                        </div>
+                    </div>
+                    <div class="prd-wrap p-3">
+                        <div class="prd-image" style="background-image: url('../images/apple.webp');">
+                        </div>
+                        <div class="top-text pt-3">
+                            <h4>HOT DEALS</h4>
+                        </div>
+                    </div>
+                    <div class="prd-wrap p-3">
+                        <div class="prd-image" style="background-image: url('../images/apple.webp');">
+                        </div>
+                        <div class="top-text pt-3">
+                            <h4>HOT DEALS</h4>
+                        </div>
+                    </div>
+                    <div class="prd-wrap p-3">
+                        <div class="prd-image" style="background-image: url('../images/apple.webp');">
+                        </div>
+                        <div class="top-text pt-3">
+                            <h4>HOT DEALS</h4>
+                        </div>
+                    </div>
+                    <div class="prd-wrap p-3">
+                        <div class="prd-image" style="background-image: url('../images/apple.webp');">
+                        </div>
+                        <div class="top-text pt-3">
+                            <h4>HOT DEALS</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="more-btn text-center">
+                    <a href="#" class="btn">View Collections</a>
+                </div>
+            </div>
+        </section>
+        <section class="site-services spacer">
+            <div class="container">
+                <!-- Bootstrap CSS -->
+                <!-- jQuery first, then Bootstrap JS. -->
+                <!-- Nav tabs -->
+                <div class="service-tab">
+                    <ul class="nav nav-tabs" role="tablist">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#profile" role="tab" data-toggle="tab">profile</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#buzz" role="tab" data-toggle="tab">buzz</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#references" role="tab" data-toggle="tab">references</a>
+                        </li>
+                    </ul>
+
+                    <!-- Tab panes -->
+                    <div class="tab-content p-3">
+                        <div role="tabpanel" class="tab-pane fade in active" id="profile">
+                            <div class="row">
+                                <div class="col-12 col-md-6">
+                                    <img src="images/ph-1.jpg" alt="" class="img-fluid">
+                                </div>
+                                <div class="col-12 col-md-6">
+                                    <h3>Lorem Ipsum</h3>
+                                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt tempore quo sint,
+                                        veniam itaque quam soluta voluptate, tempora, cupiditate perspiciatis illum
+                                        quibusdam libero delectus corrupti iste quasi in voluptas distinctio.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div role="tabpanel" class="tab-pane fade" id="buzz">
+                            <div class="row">
+                                <div class="col-12 col-md-6">
+                                    <img src="images/lap&ph.jpg" alt="" class="img-fluid">
+                                </div>
+                                <div class="col-12 col-md-6">
+                                    <h3>Lorem Ipsum</h3>
+                                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt tempore quo sint,
+                                        veniam itaque quam soluta voluptate, tempora, cupiditate perspiciatis illum
+                                        quibusdam libero delectus corrupti iste quasi in voluptas distinctio.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div role="tabpanel" class="tab-pane fade" id="references">
+                            <div class="row">
+                                <div class="col-12 col-md-6">
+                                    <img src="images/ph-blog.jpg" alt="" class="img-fluid">
+                                </div>
+                                <div class="col-12 col-md-6">
+                                    <h3>Lorem Ipsum</h3>
+                                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt tempore quo sint,
+                                        veniam itaque quam soluta voluptate, tempora, cupiditate perspiciatis illum
+                                        quibusdam libero delectus corrupti iste quasi in voluptas distinctio.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="video-section spacer">
+            <div class="container">
+                <h2 class="text-center">Lorem ipsum dolor sit admeit</h2>
+                <div class="video-section-wrap text-center">
+                    <video width="540" height="310" controls>
+                        <source src="https://www.youtube.com/watch?v=9xwazD5SyVg" type="video/mp4">
+                    </video>
+
+                </div>
+            </div>
+        </section>
+        <div id="myModal" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">Login-in to your Account</h4>
+                    </div>
+                    <div class="modal-body">
+                        <form action="/action_page.php">
+                            <div class="form-group">
+                                <label for="email">Email address:</label>
+                                <input type="email" class="form-control" id="email">
+                            </div>
+                            <div class="form-group">
+                                <label for="pwd">Password:</label>
+                                <input type="password" class="form-control" id="pwd">
+                            </div>
+                            <div class="checkbox">
+                                <label><input type="checkbox"> Remember me</label>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer justify-content-center">
+                        <button type="button" class="btn" data-dismiss="modal">Sign-In</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div id="createAcc" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">Login-in to your Account</h4>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-12 col-md-6">
+                                        <div class="form-group">
+                                            <label for="Name">First Name:</label>
+                                            <input type="text" class="form-control" id="name">
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-6">
+                                        <div class="form-group">
+                                            <label for="Lname">Last Name:</label>
+                                            <input type="text" class="form-control" id="Lname">
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-12">
+                                        <div class="form-group">
+                                            <label for="email">Email address:</label>
+                                            <input type="email" class="form-control" id="email">
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-6">
+                                        <div class="form-group">
+                                            <label for="pwd">Password:</label>
+                                            <input type="password" class="form-control" id="pwd">
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-6">
+                                        <div class="form-group">
+                                            <label for="Cpwd">Confirm Password:</label>
+                                            <input type="password" class="form-control" id="Cpwd">
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-12">
+                                        <div class="form-group">
+                                            <label for="address">Address:</label>
+                                            <textarea class="form-control" rows="5" id="address"></textarea>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-12">
+                                        <div class="checkbox">
+                                            <label><input type="checkbox"> I Agree the Terms and Conditions</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer justify-content-center">
+                        <button type="button" class="btn" data-dismiss="modal" id="submit">Submit</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </content>
+    <footer class="footer-section">
+        <div class="conatiner">
+            <div class="row">
+                <div class="col-12 col-md-4">
+                    <div class="contact text-center">
+                        <a href="#"><i class="fa fa-phone" aria-hidden="true"></i></a>
+
+                        <h5>1234567892</h5>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="contact text-center">
+                        <a href="#">
+                            <i class="fa fa-map-marker" aria-hidden="true"></i>
+                        </a>
+                        <h5>MobileDec</h5>
+                        <p>ullamillo quasi, ipsum perferendis beatae-56789</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="contact text-center">
+                        <a href="#">
+                            <i class="fa fa-envelope" aria-hidden="true"></i></a>
+                        <h5>mobiledec@gmail.com</h5>
+                    </div>
+                </div>
+            </div>
+            <ul class="social-icons text-center">
+                <li><a href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a> </li>
+                <li><a href="#"><i class="fa fa-twitter-square" aria-hidden="true"></i></a></li>
+                <li>
+                    <a href="#"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+                </li>
+            </ul>
+            <div class="copyright text-center">
+                <p>COPRIGHT @ 2020 MobileDec Upload Theme</p>
+            </div>
+            <div class="scrolltop">
+                <i class="fa fa-angle-up" aria-hidden="true"></i>
+            </div>
+        </div>
+    </footer>
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="assets/bootstrap/js/popper.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="js/jquery.matchHeight-min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/slick-animation.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
