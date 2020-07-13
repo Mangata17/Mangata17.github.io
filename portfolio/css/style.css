@@ -317,8 +317,11 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6, p, a, li {
   .sitemain-inner {
     background-color: #fff;
   }
-  .portfolio-section {
+  .sitemain-inner {
     padding: 30px 20px;
+  }
+  .sidenav .more-details {
+    text-align: center;
   }
 }
 
@@ -327,7 +330,6 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6, p, a, li {
     border-top: 1px solid #ddd;
     padding-top: 15px;
     margin-top: 15px;
-    padding-left: 0!important;
   }
   .sitemain .portfolio-section .timeline::after {
     display: none;
@@ -338,5 +340,23 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6, p, a, li {
   }
   .sitemain .portfolio-section .timeline .portfolio-timeline .content-list {
     display: block;
+  }
+  h2, .h2 {
+    font-size: 28px;
+  }
+  h3, .h3 {
+    font-size: 22px;
+  }
+  .content h4, .h4 {
+    font-size: 20px;
+  }
+  h5, .h5 {
+    font-size: 18px;
+  }
+  .spacer {
+    padding: 25px 0 0;
+  }
+  .sitemain-inner .education-section .edu li {
+    padding-bottom: 20px;
   }
 }
