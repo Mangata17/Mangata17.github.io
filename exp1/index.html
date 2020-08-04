@@ -1,0 +1,378 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="images/favicon.ico">
+    <title>Home</title>
+    <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/aos.min.css">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <header class="header-section fixed-top">
+        <div id="header-top-bar" class="py-2">
+            <div class="container">
+                <div class="row justify-content-between align-items-center">
+                    <div class="col-12 col-md-6 d-none d-md-block d-lg-block">
+                        <div class="topbar-text text-white">
+                            <ul class="list-inline mb-0">
+                                <li class="list-inline-item">
+                                    <a href="#">Sponsored by Runscope — API Monitoring & Testing</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <div class="topbar-text right text-white text-right">
+                            <ul class="list-inline mb-0">
+                                <li class="list-inline-item">
+                                    <a href="#" class="btn outline-btn">
+                                        <span class="text">
+                                            <i class="fa fa-twitter" aria-hidden="true"></i>Twitter
+                                        </span>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="#" class="btn outline-btn">
+                                        <span class="text">
+                                            ⊕ Add to Pinboard
+                                        </span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <nav class="navbar navbar-expand-md">
+            <!-- Brand -->
+            <a class="navbar-brand" href="#"><img src="images/logo.png" alt="" class="img-fluid"></a>
+
+            <!-- Toggler/collapsibe Button -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon">
+                    <span></span>
+                </span>
+            </button>
+
+            <!-- Navbar links -->
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#inform">Informational</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#sucess">Success</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#redirect">Redirection</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#client">Client Error</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#server">Server Error</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <content>
+        <section class="banner-section">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" class="svg-wave">
+                <path fill="#fff" fill-opacity="1"
+                    d="M0,288L40,293.3C80,299,160,309,240,288C320,267,400,213,480,181.3C560,149,640,139,720,133.3C800,128,880,128,960,112C1040,96,1120,64,1200,42.7C1280,21,1360,11,1400,5.3L1440,0L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z">
+                </path>
+            </svg>
+            <div class="container">
+                <div class="banner-text pb-4">
+                    <div class="row align-items-center">
+                        <div class="col-12 col-md-6">
+                            <h1>HTTP Status Codes</h1>
+                            <p>httpstatuses.com is an easy to reference database of HTTP Status Codes with their
+                                definitions
+                                and helpful code references all in one place. Visit an individual status code via
+                                httpstatuses.com/code or browse the list below.</p>
+                        </div>
+                        <div class="col-12 col-md-6">
+                            <img src="images/banner-image.svg" alt="" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="main-section spacer pt-5" id="inform">
+            <div class="container">
+                <h2>Informational</h2>
+                <div class="row">
+                    <div class="col-12 col-md-4">
+                        <div class="main-block">
+                            <img src="images/next.svg" alt="" class="img-fluid">
+                            <div class="block-text">
+                                <h3 class="text-center">100 Continue</h4>
+                                    <p>The initial part of a request has been received and has not yet been rejected by
+                                        the
+                                        server. The server intends to send a final response after the request has been
+                                        fully
+                                        received and acted upon.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <div class="main-block">
+                            <img src="images/null.svg" alt="" class="img-fluid">
+                            <div class="block-text">
+                                <h3 class="text-center">101 Switching Protocols</h4>
+                                    <p>The server understands and is willing to comply with the client's request, via
+                                        the
+                                        Upgrade header field1, for a change in the application protocol being used on
+                                        this
+                                        connection.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <div class="main-block">
+                            <img src="images/processing.svg" alt="" class="img-fluid">
+                            <div class="block-text">
+                                <h3 class="text-center">102 Processing</h4>
+                                    <p>An interim response used to inform the client that the server has accepted the
+                                        complete request, but has not yet completed it.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="success-section spacer" id="sucess">
+            <div class="container">
+                <h2>Success</h2>
+                <div class="conatiner">
+                    <div class="row justify-content-center">
+                        <div class="col-12 col-md-6 col-lg-3">
+                            <div class="sucess-block" data-aos="zoom-in">
+                                <h4>200 OK</h4>
+                                <p>The request has succeeded.</p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-3">
+                            <div class="sucess-block" data-aos="zoom-in">
+                                <h4>201 CREATED</h4>
+                                <p>The request has been fulfilled and has resulted in one or more new resources being
+                                    created.</p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-3">
+                            <div class="sucess-block" data-aos="zoom-in">
+                                <h4>202 ACCEPTED</h4>
+                                <p>The request has been accepted for processing, but the processing has not been
+                                    completed. The request might or might not eventually be acted upon, as it might be
+                                    disallowed when processing actually takes place.</p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-3">
+                            <div class="sucess-block" data-aos="zoom-in">
+                                <h4>203 Non-authoritative Information</h4>
+                                <p>The request was successful but the enclosed payload has been modified from that of
+                                    the origin server's 200 OK response by a transforming proxy</p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-3">
+                            <div class="sucess-block" data-aos="zoom-in">
+                                <h4>204 No Content</h4>
+                                <p>The server has successfully fulfilled the request and that there is no additional
+                                    content to send in the response payload body.</p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-3">
+                            <div class="sucess-block" data-aos="zoom-in">
+                                <h4>205 Reset Content</h4>
+                                <p>The server has fulfilled the request and desires that the user agent reset the
+                                    "document view", which caused the request to be sent, to its original state as
+                                    received from the origin server.</p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-3">
+                            <div class="sucess-block" data-aos="zoom-in">
+                                <h4>206 Partial Content</h4>
+                                <p>The server is successfully fulfilling a range request for the target resource by
+                                    transferring one or more parts of the selected representation that correspond to the
+                                    satisfiable ranges found in the request's Range header field</p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-3">
+                            <div class="sucess-block" data-aos="zoom-in">
+                                <h4>207 Multi-Status</h4>
+                                <p>A Multi-Status response conveys information about multiple resources in situations
+                                    where multiple status codes might be appropriate.</p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-3">
+                            <div class="sucess-block" data-aos="zoom-in">
+                                <h4>208 Already Reported</h4>
+                                <p>Used inside a DAV: propstat response element to avoid enumerating the internal
+                                    members of multiple bindings to the same collection repeatedly.</p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-3">
+                            <div class="sucess-block" data-aos="zoom-in">
+                                <h4>226 IM Used</h4>
+                                <p>The server has fulfilled a GET request for the resource, and the response is a
+                                    representation of the result of one or more instance-manipulations applied to the
+                                    current instance.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="redirect-section spacer text-center" id="redirect">
+            <div class="container">
+                <h2>Redirection</h2>
+                <div class="redirect-block mb-4">
+                    <div class="content">
+                        <h4>300 Multiple Choices</h4>
+                    </div>
+                    <div class="content">
+                        <h4>
+                            301 Moved Permanently
+                        </h4>
+                    </div>
+                    <div class="content">
+                        <h4>
+                            302 Found
+                        </h4>
+                    </div>
+                    <div class="content">
+                        <h4>
+                            303 See Other
+                        </h4>
+                    </div>
+                    <div class="content">
+                        <h4>
+                            304 Not Modified
+                        </h4>
+                    </div>
+                    <div class="content">
+                        <h4>
+                            305 Use Proxy
+                        </h4>
+                    </div>
+                    <div class="content">
+                        <h4>
+                            307 Temporary Redirect</h4>
+                    </div>
+                    <div class="content">
+                        <h4>308 Permanent Redirect</h4>
+                    </div>
+                </div>
+                <a href="#" class="btn-load" id="loadMore">View More</a>
+            </div>
+        </section>
+        <section class="section pb-5">
+            <div class="container">
+                <div class="row align-items-center mb-4" id="client">
+                    <div class="col-12 col-md-8">
+                        <h2>Client Error</h2>
+                        <ul>
+                            <li>
+                                401 Unauthorized
+                            </li>
+                            <li>
+                                402 Payment Required
+                            </li>
+                            <li>
+                                403 Forbidden
+                            </li>
+                            <li>
+                                404 Not Found
+                            </li>
+                            <li>
+                                405 Method Not Allowed
+                            </li>
+                        </ul>
+                        <div class="more-block text-center">
+                            <a href="#" class="btn-load">More</a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <img src="images/bug-fixing.svg" alt="" class="img-fluid">
+                    </div>
+                </div>
+                <div class="row align-items-center" id="server">
+                    <div class="col-12 col-md-8">
+                        <h2>Server Error</h2>
+                        <ul>
+                            <li>500 Internal Server Error</li>
+                            <li>501 Not Implemented</li>
+                            <li>502 Bad Gateway</li>
+                            <li>503 Service Unavailable</li>
+                            <li> 504 Gateway Timeout</li>
+                            <li>505 HTTP Version Not Supported</li>
+                        </ul>
+                        <div class="more-block text-center">
+                            <a href="#" class="btn-load">More</a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <img src="images/phone.svg" alt="" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </content>
+    <footer class="footer-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-4">
+                    <div class="footer-icon text-center">
+                        <i class="fa fa-phone-square" aria-hidden="true"></i>
+                        <p><a href="#">1234567896</a></p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="footer-icon text-center">
+                        <i class="fa fa-envelope" aria-hidden="true"></i>
+                        <p><a href="#">httpstatusescodes@gmail.com</a></p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="footer-icon text-center">
+                        <i class="fa fa-globe" aria-hidden="true"></i>
+                        <p><a href="#">www.httpstatusescodes.com</a></p>
+                    </div>
+                </div>
+            </div>
+            <ul class="social-icons text-center">
+                <li> <a href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
+                <li> <a href="#"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
+                <li> <a href="#"><i class="fa fa-twitter-square" aria-hidden="true"></i></a></li>
+            </ul>
+            <div class="copyright text-center">
+                <p>Copyright 2020 @ httpstatusescodes.com</p>
+            </div>
+            <div class="watermark">
+                <p>GD [demosite]</p>
+            </div>
+
+            <button class="scrolltop">
+                <i class="fa fa-chevron-up" aria-hidden="true"></i>
+            </button>
+        </div>
+    </footer>
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="assets/bootstrap/js/popper.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="js/jquery.matchHeight-min.js"></script>
+    <script src="js/aos.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
