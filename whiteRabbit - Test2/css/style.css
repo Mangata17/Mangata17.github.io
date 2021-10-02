@@ -1,0 +1,584 @@
+@font-face {
+  font-family: "HKGrotesk-Italic";
+  font-style: italic;
+  font-weight: 100;
+  src: url("../fonts/HKGrotesk-Italic.otf");
+}
+
+@font-face {
+  font-family: "HKGrotesk-Regular";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/HKGrotesk-Regular.otf");
+}
+
+@font-face {
+  font-family: "HKGrotesk-RegularLegacy";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/HKGrotesk-RegularLegacy.otf");
+}
+
+@font-face {
+  font-family: "HKGrotesk-Light";
+  font-style: normal;
+  font-weight: 300;
+  src: url("../fonts/HKGrotesk-Light.otf");
+}
+
+@font-face {
+  font-family: "HKGrotesk-LightItalic";
+  font-style: italic;
+  font-weight: 300;
+  src: url("../fonts/HKGrotesk-LightItalic.otf");
+}
+
+@font-face {
+  font-family: "HKGrotesk-LightLegacy";
+  font-style: normal;
+  font-weight: 300;
+  src: url("../fonts/HKGrotesk-LightLegacy.otf");
+}
+
+@font-face {
+  font-family: "HKGrotesk-LightLegacyItalic";
+  font-style: italic;
+  font-weight: 300;
+  src: url("../fonts/HKGrotesk-LightLegacyItalic.otf");
+}
+
+@font-face {
+  font-family: "HKGrotesk-Medium";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/HKGrotesk-Medium.otf");
+}
+
+@font-face {
+  font-family: "HKGrotesk-MediumItalic";
+  font-style: italic;
+  font-weight: 500;
+  src: url("../fonts/HKGrotesk-MediumItalic.otf");
+}
+
+@font-face {
+  font-family: "HKGrotesk-MediumLegacy";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/HKGrotesk-MediumLegacy.otf");
+}
+
+@font-face {
+  font-family: "HKGrotesk-MediumLegacyItalic";
+  font-style: italic;
+  font-weight: 500;
+  src: url("../fonts/HKGrotesk-MediumLegacyItalic.otf");
+}
+
+@font-face {
+  font-family: "HKGrotesk-SemiBold";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/HKGrotesk-SemiBold.otf");
+}
+
+@font-face {
+  font-family: "HKGrotesk-SemiBoldItalic";
+  font-style: italic;
+  font-weight: 600;
+  src: url("../fonts/HKGrotesk-SemiBoldItalic.otf");
+}
+
+@font-face {
+  font-family: "HKGrotesk-SemiBoldLegacyItalic";
+  font-style: italic;
+  font-weight: 600;
+  src: url("../fonts/HKGrotesk-SemiBoldLegacyItalic.otf");
+}
+
+@font-face {
+  font-family: "HKGrotesk-SemiBoldLegacy";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/HKGrotesk-SemiBoldLegacy.otf");
+}
+
+@font-face {
+  font-family: "HKGrotesk-Bold";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/HKGrotesk-Bold.otf");
+}
+
+@font-face {
+  font-family: "HKGrotesk-BoldItalic";
+  font-style: italic;
+  font-weight: 700;
+  src: url("../fonts/HKGrotesk-BoldItalic.otf");
+}
+
+@font-face {
+  font-family: "HKGrotesk-BoldLegacy";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/HKGrotesk-BoldLegacy.otf");
+}
+
+@font-face {
+  font-family: "HKGrotesk-BoldLegacyItalic";
+  font-style: italic;
+  font-weight: 700;
+  src: url("../fonts/HKGrotesk-BoldLegacyItalic.otf");
+}
+
+@font-face {
+  font-family: "HKGrotesk-Black";
+  font-style: normal;
+  font-weight: 800;
+  src: url("../fonts/HKGrotesk-Black.otf");
+}
+
+@font-face {
+  font-family: "HKGrotesk-ExtraBold";
+  font-style: normal;
+  font-weight: 900;
+  src: url("../fonts/HKGrotesk-ExtraBold.otf");
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: 'HKGrotesk-Regular';
+  font-size: 16px;
+  line-height: 1.5;
+  color: #000;
+}
+
+h1, .heading-one {
+  font-size: 40px;
+  line-height: 53px;
+  text-transform: capitalize;
+  padding-bottom: 32px;
+  position: relative;
+}
+
+h2, .heading-two {
+  font-size: 45px;
+  padding-bottom: 25px;
+  text-align: center;
+}
+
+h3, .heading-three {
+  font-size: 38px;
+}
+
+h4, .heading-four {
+  font-size: 36px;
+  line-height: 149.5%;
+  padding-bottom: 19px;
+}
+
+h5, .heading-five {
+  font-size: 22px;
+  line-height: 1.3;
+}
+
+h6, .heading-six {
+  font-size: 20px;
+  line-height: 30px;
+  color: #4F5659;
+}
+
+p {
+  font-size: 18px;
+  line-height: 28px;
+  color: #fff;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #000;
+  text-decoration: none;
+}
+
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover {
+  font: inherit;
+}
+
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6, p {
+  word-wrap: break-word;
+  white-space: normal;
+}
+
+ul {
+  padding-left: 0;
+  margin-bottom: 0;
+  display: block;
+  list-style-type: none;
+}
+
+.py {
+  padding: 100px 0;
+}
+
+button:focus {
+  outline: none;
+  border: none;
+  box-shadow: none;
+}
+
+.btn_reg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 42px;
+  font-size: 15px;
+  line-height: 24px;
+  font-family: 'HKGrotesk-Bold';
+  padding: 0 20px;
+  border-radius: 2px;
+  transition: all .3s ease-in-out;
+  cursor: pointer;
+}
+
+.btn--login {
+  background-color: #030F3F;
+  border: 1px solid #2B83EA;
+  color: #fff;
+  margin-right: 16px;
+}
+
+.btn--click {
+  background-color: #2783F3;
+  height: 48px;
+  display: inline-flex;
+  color: #fff;
+}
+
+.btn--click:hover {
+  color: #2783F3;
+  background-color: #fff;
+}
+
+.btn--login:focus {
+  border: 1px solid #2B83EA;
+}
+
+.btn--signUp:focus {
+  border: 1px solid #EDEDED;
+}
+
+.btn--signUp {
+  background: url(/images/arrow_forward.svg) no-repeat 80%;
+  background-color: #FFFFFF;
+  border: 1px solid #EDEDED;
+  color: #528FF0;
+  padding-right: 44px;
+}
+
+/*** Header ****/
+
+.header-section .navbar {
+  padding: 0;
+  height: 60px;
+}
+
+.header-section .navbar .navbar-brand {
+  margin-right: 81px;
+}
+
+.header-section .navbar .nav-item {
+  padding: 0 17px;
+}
+
+.header-section .navbar .nav-item .nav-link {
+  color: #fff;
+  padding: .5rem 0 0 0;
+}
+
+.header-section {
+  transition: all .3s ease-in-out;
+}
+
+.header-section.active {
+  background-color: #03062f;
+}
+
+/*** CONTENT ****/
+
+.banner-section {
+  background: url(/images/banner-1.svg) no-repeat;
+  min-height: 750px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+}
+
+.banner-section .right-image {
+  display: block;
+  text-align: center;
+}
+
+.banner-section .heading-one::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  background-color: #58C19C;
+  height: 4px;
+  width: 24px;
+  left: 0;
+}
+
+.banner-section .text {
+  color: rgba(255, 255, 255, 0.7);
+  padding: 32px 0;
+}
+
+.content-section {
+  padding: 180px 0 120px;
+}
+
+.content-section .right-content .heading-one {
+  text-align: left;
+}
+
+.content-section .slider.slider-for .slider-img .image {
+  margin: 0 auto;
+}
+
+.slider-nav .slick-slide {
+  width: 56px!important;
+  margin: 12px;
+}
+
+.star-rating {
+  color: #FFD200;
+}
+
+.content-section .slider.slider-nav .slider-img, .content-section .slider.slider-nav .slider-img .image {
+  max-width: 56px;
+  border-radius: 4px;
+}
+
+.slick-prev, .slick-next {
+  border-radius: 100%;
+  width: 48px;
+  height: 48px;
+}
+
+.slick-prev, .slick-prev:hover, .slick-prev:focus {
+  left: 0;
+  background: url(/images/slide-left.svg) no-repeat center;
+  background-color: #F4F6F6;
+  z-index: 99;
+}
+
+.slick-prev:before, .slick-next:before {
+  display: none;
+}
+
+.slick-next, .slick-next:hover, .slick-next:focus {
+  right: 0;
+  background: url(/images/slide-right.svg) no-repeat center;
+  background-color: #F4F6F6;
+}
+
+.box-block {
+  flex-wrap: wrap;
+}
+
+.box-block .block-list {
+  border: 1px solid #D8E0E2;
+  border-radius: 6px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 12px;
+  width: 140px;
+  margin-right: 4px;
+  margin-bottom: 4px;
+  text-align: center;
+  font-size: 13px;
+  line-height: 16px;
+  color: #202324;
+  transition: all .3s ease-in-out;
+  position: relative;
+}
+
+.pt-16 {
+  padding-top: 16px!important;
+}
+
+.abs-content {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  font-size: 10px;
+  line-height: 16px;
+}
+
+.new-color {
+  background-color: #DE742D;
+  color: #fff;
+}
+
+.limited {
+  background-color: #A07EDC;
+  color: #fff;
+}
+
+.box-block .block-list.active {
+  border: 2px solid #202324;
+}
+
+.btn--addBag {
+  background: url(/images/Vector.svg) no-repeat 40%;
+  background-color: #00BA74;
+  color: #fff;
+  width: 100%;
+  border: 0;
+}
+
+#cart-form {
+  margin-bottom: 32px;
+}
+
+#cart-form input {
+  width: 40px;
+  height: 48px;
+  background-color: #EDF1F2;
+  color: #8CA4AB;
+  border: 0;
+  border-radius: 2px;
+}
+
+#cart-form #quantity {
+  background-color: #fff;
+  text-align: center;
+}
+
+#cart-form #quantity:focus {
+  outline: none;
+  box-shadow: none;
+  border: 0;
+}
+
+.secondary {
+  color: #939C9F;
+  font-family: "HKGrotesk-SemiBold";
+  font-size: 12px;
+  line-height: 19px;
+}
+
+.list-item {
+  padding: 24px 0;
+}
+
+.list-item .lists {
+  position: relative;
+  padding-left: 20px;
+  padding-bottom: 12px;
+  font-size: 16px;
+  line-height: 24px;
+  color: #34393A;
+}
+
+.info {
+  color: #545C5F;
+  font-size: 14px;
+  line-height: 24px;
+  padding-left: 30px;
+  background: url(/images/car.svg) no-repeat left;
+}
+
+.list-item .lists::before {
+  position: absolute;
+  content: '';
+  width: 16.67px;
+  height: 16.67px;
+  background: url(/images/tick.svg) no-repeat left;
+  left: 0;
+  top: 4px;
+  background-size: cover;
+}
+
+/* The container */
+
+.container-label {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.container-label .secondary-label {
+  color: rgba(32, 35, 36, 0.5);
+  font-size: 13px;
+  line-height: 20px;
+}
+
+.container-label input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #fff;
+  border: 1px solid #00BA74;
+  border-radius: 50%;
+}
+
+.container-label input:checked~.checkmark {
+  background-color: #fff;
+  border: 1px solid #00BA74;
+}
+
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.container-label input:checked~.checkmark:after {
+  display: block;
+}
+
+.container-label .checkmark:after {
+  top: 4px;
+  left: 4px;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background: #00BA74;
+}
+
+/*** MEDIA QUERIES ****/
+
+@media only screen and (min-width:1200px) {
+  .container {
+    max-width: 1200px;
+  }
+}
