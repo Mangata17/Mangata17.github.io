@@ -1,0 +1,62 @@
+@import 'sasshelper/_variable.scss';
+@import 'sasshelper/_mixins.scss';
+
+@include fontFace("Lato-Light", '../fonts/Lato-Light', normal, bold);
+@include fontFace("Lato-Regular", '../fonts/Lato-Regular', italic,normal );
+
+body {
+  font: 100% $font-stack;
+  color: $primary-color;
+}
+
+nav {
+	ul {
+		margin: 0;
+	}
+	li {
+		padding: 0;
+	}
+	a {
+		color: $primary-color;	
+		&:hover { color: red; }
+	}
+}
+.content-holder{
+	width: 100 / 20 * 1 ;
+	padding: 0;
+}
+
+//IPad Portrait
+@include ipad-portrait($break-minipadportrait, $break-maxipadportrait) {
+	nav {
+		ul {
+			margin: 10px;
+		}
+		p {
+			font-size: 10px;
+		}
+	}
+}
+
+//IPad Landscape
+@include ipad-landscape($break-minipadlandscape, $break-maxipadlandscape) {
+	nav {
+		ul {
+			margin: 10px;
+		}
+		p {
+			font-size: 10px;
+		}
+	}
+}
+
+// Mobile Devices
+@include mobile-portrait($mobile-break) {
+	h1  {
+	    font-size: 62px;
+	    padding-bottom: 12px;
+	}
+	p {
+		margin: 10px;
+	}
+}
