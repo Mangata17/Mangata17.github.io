@@ -268,7 +268,7 @@ section {
 }
 
 .banner {
-  background: url(/images/web1.jpg) no-repeat center top;
+  background: url(../images/web1.jpg) no-repeat center top;
   background-size: cover;
   min-height: 500px;
   display: flex;
@@ -369,7 +369,7 @@ section {
 }
 
 .feature-section {
-  background: url(/images/web2.jpg), url(/images/web3.png), url(/images/web4.png);
+  background: url(../images/web2.jpg), url(../images/web3.png), url(../images/web4.png);
   background-position: top left, top right, bottom right;
   background-repeat: no-repeat;
   min-height: 480px;
@@ -401,7 +401,7 @@ section {
 }
 
 .founder-section {
-  background: url(/images/1.jpg) no-repeat center top;
+  background: url(../images/1.jpg) no-repeat center top;
   background-size: cover;
   min-height: 350px;
 }
